@@ -3,34 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-use function PHPUnit\Framework\isNull;
-
-class ProductsController extends Controller
+class CategoriesController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index($slug = null)
+    public function index()
     {
-
-        if (is_null($slug)) {
-            return view('pages.home', [
-                "products" => DB::table('products')->take(15)->get()
-            ]);
-        } else {
-            // dd($slug);
-
-            // $category = DB::table('categories')->where("slug", "==", $slug)->get();
-            // dd($category);
-            // return view('pages.category', [
-            //     "products" => DB::table('products')->where('category_id', "==", $category)->get(),
-            //     "category" => $category,
-            // ]);
-        }
     }
 
     /**
@@ -60,11 +43,13 @@ class ProductsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($slug)
+    public function show($id)
     {
-        return view('pages.product', [
-            "product" => DB::table('products')->where('slug',  $slug)->first(),
-        ]);
+        //
+        // $products = DB::table('products')->get()->take(10);
+        // // dd($products);
+        // return view('pages.home' , compact('products'))
+        // return $id;
     }
 
     /**

@@ -1,24 +1,22 @@
 <header class="bg-secondary">
     <div class="d-flex justify-content-between align-items-center container py-3">
-        <a href="/home.html" class="logo scale-anim"><b>We</b> fashion</a>
-
-        @include('layouts.navPublic')
+        <a href="/" class="logo scale-anim"><b>We</b> fashion</a>
         @if (5 < 10)
             <nav class="me-auto ms-5">
                 <ul class="d-flex align-items-center list-unstyled p-0 m-0">
                     <li>
-                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link" href="/products/soldes">
+                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link" href="/category/soldes">
                             Produits
                         </a>
                     </li>
                     <li>
-                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link" href="/products/homme">
+                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link" href="/category/homme">
                             Catégories
                         </a>
                     </li>
                 </ul>
             </nav>
-            <a href="./admin.html">
+            <a href="/admin">
                 <button type="button" class="btn btn-primary d-flex align-items-center"> <span
                         class="material-symbols-outlined me-2">
                         admin_panel_settings
@@ -28,26 +26,26 @@
             <nav class="me-auto ms-5">
                 <ul class="d-flex align-items-center list-unstyled p-0 m-0">
                     <li>
-                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link {{ request()->is('/products/soldes') ? 'active' : '' }} "
-                            href="/products/soldes">
+                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link {{ request()->is('/category/soldes') ? 'active' : '' }} "
+                            href="/category/soldes">
                             Soldes
                         </a>
                     </li>
                     <li>
-                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link {{ request()->is('/products/homme') ? 'active' : '' }} "
-                            href="/products/homme">
+                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link {{ request()->is('/category/homme') ? 'active' : '' }} "
+                            href="/category/homme">
                             Homme
                         </a>
                     </li>
                     <li>
-                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link {{ request()->is('/products/femme') ? 'active' : '' }} "
-                            href="/products/femme">
+                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link {{ request()->is('/category/femme') ? 'active' : '' }} "
+                            href="/category/femme">
                             Femme
                         </a>
                     </li>
                 </ul>
             </nav>
-            <a href="./admin.html">
+            <a href="/admin">
                 <button type="button" class="btn btn-primary d-flex align-items-center"> <span
                         class="material-symbols-outlined me-2">
                         admin_panel_settings

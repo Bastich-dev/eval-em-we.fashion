@@ -4,7 +4,9 @@
 <body>
     @include('layouts.header')
 
-    @yield('content')
+    <main class="container my-5">
+        @yield('content')
+    </main>
 
     @include('layouts.footer')
     <!-- Bootstrap -->

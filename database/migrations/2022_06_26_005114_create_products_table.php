@@ -16,6 +16,17 @@ return new class extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('name')->unique();
+            $table->string('slug')->unique();
+            $table->string('sku', 16)->unique();
+            $table->text('description')->nullable();
+            $table->unsignedInteger('category_id')->nullable();
+            $table->boolean('published')->default(0);
+            $table->boolean('discount')->default(0);
+            $table->string('image_path')->nullable();
+            $table->unsignedDecimal('price', 4, 2)->default(0);
+            $table->enum('sizes', ["xs", "s", "m", "l", "xl"])->nullable();
+            // $table->foreign('category_id')->references('id')->on('categories')->onDelete('set null');
         });
     }
 
