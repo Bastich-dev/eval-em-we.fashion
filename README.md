@@ -19,7 +19,7 @@
     -   #### [1.3 - Méthode de travail](#section-1-3)
     -   #### [1.4 - Versioning & Hébergement démo](#section-1-4)
 
--   ### 2. Respect du brief
+<!-- -   ### 2. Respect du brief
 
     -   #### [2.1 - Libertés](#section-2-1)
     -   #### [2.2 - A ne pas développer](#section-2-2)
@@ -58,7 +58,7 @@
 
 -   ### 5. Divers
     -   #### [5.1 - Développeur](#section-5-1)
-    -   #### [5.2 - Technologies utilisées](#section-5-2)
+    -   #### [5.2 - Technologies utilisées](#section-5-2) -->
 
 <br/>
 <hr/>
@@ -109,9 +109,11 @@ serveur
 
 <div id="section-1-4">
     <h3>1.4 Versioning & Hébergement démo <small><a href="#toppage">↑↑↑</a></small></h3>
-    Le code est versioné sur ce github ?
+    Le code est versioné sur ce github et hébergé sur heroku
 
 </div>
+<!--
+
 
 # <u>2. Points du brief</u>
 
@@ -290,4 +292,4 @@ serveur
         <a href="https://getbootstrap.com/" target='_blank' rel="noopenner noreferrer">Bootstrap</a>
     </li>
    </ul>
-</div>
+</div> -->
