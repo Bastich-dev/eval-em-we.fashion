@@ -30,10 +30,12 @@
             </div>
         </div>
 
-        <p class="m-0">
-            Laravel - We Fashion - EM Juin 2022 - <a class=""
-                href="https://github.com/BastosC/eval-em-laravel-2022">
-                Lien Github
+        <p class="m-0 d-flex align-items-center">
+            Laravel - We Fashion - EM Juin 2022 - <a class="d-flex align-items-center"
+                href="https://github.com/BastosC/eval-em-laravel-2022" target="_blank" rel='noopenner noreferrer'>
+                <span class="material-symbols-outlined ms-2 me-1">
+                    link
+                </span> Lien Github
             </a>
         </p>
 

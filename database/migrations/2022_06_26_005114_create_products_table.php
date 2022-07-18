@@ -24,9 +24,9 @@ return new class extends Migration
             $table->boolean('published')->default(0);
             $table->boolean('discount')->default(0);
             $table->string('image_path')->nullable();
-            $table->unsignedDecimal('price', 4, 2)->default(0);
+            $table->unsignedDecimal('price',  8,  2)->default(0);
             $table->enum('sizes', ["xs", "s", "m", "l", "xl"])->nullable();
-            // $table->foreign('category_id')->references('id')->on('categories')->onDelete('set null');
+            // $table->foreignId('category_id')->constrained('products');
         });
     }
 

@@ -1,12 +1,10 @@
 /* // BASE*/
-
+$primary: #66eb9a;
+@import "bootstrap";
 :root {
-    --color-primary: #74d690;
-
     --background-color-primary: #202124;
     --background-color-secondary: #202124;
 }
-
 html,
 body {
     margin: 0;
@@ -32,6 +30,9 @@ input[type="radio"] {
 
 h1 {
     font-weight: bold;
+    opacity: 0;
+    position: relative;
+    left: 4vw;
 }
 
 /* // LOGIN*/
@@ -64,11 +65,11 @@ td {
 
 .back {
     transform: rotate(180deg);
-    font-size: 64px;
+    font-size: 52px;
     position: relative;
-    top: -30px;
+    top: -40px;
     cursor: pointer;
-    margin-bottom: -60px;
+    margin-bottom: -40px;
     transition: 0.4s;
     margin-left: auto;
     width: max-content;
@@ -82,6 +83,7 @@ td {
     color: white;
     font-size: 38px;
     text-decoration: none;
+    min-width: 300px;
 }
 
 .logo:hover {
@@ -89,17 +91,31 @@ td {
 }
 
 .logo > b {
-    color: var(--color-primary);
+    color: $primary;
 }
 
 /* // SECTIONS*/
 
 header {
+    a {
+    }
 }
 main {
     min-height: 80vh;
 }
 footer {
+    & > div > div {
+        a {
+            margin-bottom: 5px;
+        }
+    }
+    a {
+        transition: 0.2s;
+    }
+}
+
+.btn-primary {
+    color: #005d1a;
 }
 
 /* ///  ANIMATIONS */
@@ -118,14 +134,31 @@ a {
 img {
     object-fit: cover;
 }
+
+.card-body {
+    img {
+        object-fit: cover;
+    }
+    h2 {
+        font-weight: bold;
+    }
+    p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
 /* ///  CARD */
 
 .card {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 100%;
+    opacity: 0;
 }
 .product {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 700px;
+    min-height: 700px;
 }
 
 .product div:first-child img {
@@ -137,6 +170,8 @@ img {
     cursor: pointer;
     position: relative;
     white-space: nowrap;
+    font-family: "Permanent Marker", cursive;
+    font-size: 24px;
 }
 
 .link::before,
@@ -144,7 +179,7 @@ img {
     position: absolute;
     width: 100%;
     height: 1px;
-    background: currentColor;
+    background: $primary;
     top: 100%;
     left: 0;
     pointer-events: none;
@@ -153,10 +188,6 @@ img {
 .link::before {
     content: "";
     /* show by default */
-}
-
-.link {
-    font-family: europa, sans-serif;
 }
 
 .link::before {

@@ -22,20 +22,20 @@
             <td>SEFESFSEFS</td>
             <td class="d-flex py-3">
                 <a href="./product.html" target="_blank" rel="noopenner noreferrer" type="button"
-                    class="me-4 material-symbols-rounded mx-1 action btn btn-success d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="me-4 material-symbols-outlined mx-1 action btn btn-success d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         visibility
                     </span>
                 </a>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         edit
                     </span>
                 </button>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         delete
                     </span>
                 </button>
@@ -49,20 +49,20 @@
             <td>SEFESFSEFS</td>
             <td class="d-flex py-3">
                 <a href="./product.html" target="_blank" rel="noopenner noreferrer" type="button"
-                    class="me-4 material-symbols-rounded mx-1 action btn btn-warning d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="me-4 material-symbols-outlined mx-1 action btn btn-warning d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         visibility_off
                     </span>
                 </a>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         edit
                     </span>
                 </button>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         delete
                     </span>
                 </button>
@@ -76,20 +76,20 @@
             <td>SEFESFSEFS</td>
             <td class="d-flex py-3">
                 <a href="./product.html" target="_blank" rel="noopenner noreferrer" type="button"
-                    class="me-4 material-symbols-rounded mx-1 action btn btn-success d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="me-4 material-symbols-outlined mx-1 action btn btn-success d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         visibility
                     </span>
                 </a>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         edit
                     </span>
                 </button>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         delete
                     </span>
                 </button>
@@ -103,20 +103,20 @@
             <td>SEFESFSEFS</td>
             <td class="d-flex py-3">
                 <a href="./product.html" target="_blank" rel="noopenner noreferrer" type="button"
-                    class="me-4 material-symbols-rounded mx-1 action btn btn-success d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="me-4 material-symbols-outlined mx-1 action btn btn-success d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         visibility
                     </span>
                 </a>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         edit
                     </span>
                 </button>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         delete
                     </span>
                 </button>
@@ -130,20 +130,20 @@
             <td>SEFESFSEFS</td>
             <td class="d-flex py-3">
                 <a href="./product.html" target="_blank" rel="noopenner noreferrer" type="button"
-                    class="me-4 material-symbols-rounded mx-1 action btn btn-success d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="me-4 material-symbols-outlined mx-1 action btn btn-success d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         visibility
                     </span>
                 </a>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         edit
                     </span>
                 </button>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         delete
                     </span>
                 </button>
@@ -157,20 +157,20 @@
             <td>SEFESFSEFS</td>
             <td class="d-flex py-3">
                 <a href="./product.html" target="_blank" rel="noopenner noreferrer" type="button"
-                    class="me-4 material-symbols-rounded mx-1 action btn btn-success d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="me-4 material-symbols-outlined mx-1 action btn btn-success d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         visibility
                     </span>
                 </a>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-primary d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         edit
                     </span>
                 </button>
                 <button type="button"
-                    class="material-symbols-rounded mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
-                    <span class="material-symbols-rounded ">
+                    class="material-symbols-outlined mx-1 action btn btn-danger d-flex align-items-center justify-content-center">
+                    <span class="material-symbols-outlined ">
                         delete
                     </span>
                 </button>

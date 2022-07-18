@@ -1,7 +1,9 @@
-<header class="bg-secondary">
+<header class="bg-dark">
     <div class="d-flex justify-content-between align-items-center container py-3">
-        <a href="/" class="logo scale-anim"><b>We</b> fashion</a>
-        @if (5 < 10)
+        <a href="/" class="logo scale-anim">
+            <img src="{{ asset('logo.png') }}" alt="We Fashion" class="img-fluid">
+        </a>
+        @if (false)
             <nav class="me-auto ms-5">
                 <ul class="d-flex align-items-center list-unstyled p-0 m-0">
                     <li>
@@ -25,24 +27,15 @@
         @else
             <nav class="me-auto ms-5">
                 <ul class="d-flex align-items-center list-unstyled p-0 m-0">
-                    <li>
-                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link {{ request()->is('/category/soldes') ? 'active' : '' }} "
-                            href="/category/soldes">
-                            Soldes
-                        </a>
-                    </li>
-                    <li>
-                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link {{ request()->is('/category/homme') ? 'active' : '' }} "
-                            href="/category/homme">
-                            Homme
-                        </a>
-                    </li>
-                    <li>
-                        <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link {{ request()->is('/category/femme') ? 'active' : '' }} "
-                            href="/category/femme">
-                            Femme
-                        </a>
-                    </li>
+                    @foreach ($categories as $category)
+                        <li>
+                            <a class="h5 text-white pt-2 pb-1 m-3 text-decoration-none link {{ request()->is('/category/$category->slug ') ? 'active' : '' }} "
+                                href="/category/{{ $category['slug'] }}">
+                                {{ $category['name'] }}
+                            </a>
+                        </li>
+                    @endforeach
+
                 </ul>
             </nav>
             <a href="/admin">

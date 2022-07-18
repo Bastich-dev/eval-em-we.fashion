@@ -3,6 +3,6 @@
     @forelse ($products as $product)
         @include('content.cardProduct', ['product' => $product])
     @empty
-        <p>Aucun article por cette recherche.</p>
+        <p>Aucun article pour cette recherche.</p>
     @endforelse
 </div>

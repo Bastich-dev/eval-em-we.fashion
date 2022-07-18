@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Models\Product;
+use App\Models\Category;
 
 use function PHPUnit\Framework\isNull;
 
@@ -18,18 +20,14 @@ class ProductsController extends Controller
     {
 
         if (is_null($slug)) {
+
             return view('pages.home', [
-                "products" => DB::table('products')->take(15)->get()
+                "products" => Product::where('published', true)->take(15)->get(),
             ]);
         } else {
-            // dd($slug);
-
-            // $category = DB::table('categories')->where("slug", "==", $slug)->get();
-            // dd($category);
-            // return view('pages.category', [
-            //     "products" => DB::table('products')->where('category_id', "==", $category)->get(),
-            //     "category" => $category,
-            // ]);
+            return view('pages.category', [
+                "products" => Product::where('published', true)->take(15)->get(),
+            ]);
         }
     }
 

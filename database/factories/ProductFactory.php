@@ -22,13 +22,13 @@ class ProductFactory extends Factory
         return [
             'name' =>  $name,
             'slug' => $slug,
-            'sku' => $this->faker->realText($maxNbChars = 16),
+            'sku' => $this->faker->unique()->realText(16),
             'description' => $this->faker->text(),
             'discount' => $this->faker->numberBetween(0, 1),
             'published' => $this->faker->numberBetween(0, 1),
             'image_path' => $this->faker->imageUrl(640, 640),
-            'price' => 0.25,
-            'sizes' => [],
+            'price' => $this->faker->numberBetween(0, 100),
+            'sizes' => $this->faker->randomElement(['xs', 's', 'm', 'l', 'xl']),
         ];
     }
 }
